@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>双人塔防游戏</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>双人塔防游戏</h1>
+    <div id="游戏区域">
+        <div id="玩家1区域" class="玩家区域">
+            <h2>玩家1区域</h2>
+            <div id="玩家1英雄列表" class="英雄网格"></div>
+            <button id="召唤玩家1英雄">召唤英雄</button>
+        </div>
+        <div id="玩家2区域" class="玩家区域">
+            <h2>玩家2区域</h2>
+            <div id="玩家2英雄列表" class="英雄网格"></div>
+            <button id="召唤玩家2英雄">召唤英雄</button>
+        </div>
+    </div>
+    <div id="控制区域">
+        <button id="开始波次">开始波次</button>
+        <button id="召唤BOSS">召唤 BOSS</button>
+    </div>
+    <div id="游戏状态">
+        <p>当前波次: <span id="当前波次数">0</span></p>
+        <p>玩家1金币: <span id="玩家1金币数">100</span></p>
+        <p>玩家2金币: <span id="玩家2金币数">100</span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
